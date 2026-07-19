@@ -62,7 +62,7 @@ public sealed partial class MainWindow : Window
         NetworkSparkline.SetValues(_networkHistory.Snapshot());
     }
 
-    public void ToggleNear(TrayBounds bounds)
+    internal void ToggleNear(TrayBounds bounds)
     {
         if (_isVisible)
         {
