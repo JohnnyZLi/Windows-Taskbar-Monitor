@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsTaskbarMonitor.Core", "src\WindowsTaskbarMonitor.Core\WindowsTaskbarMonitor.Core.csproj", "{148A8910-FD1E-4D08-84EB-0A5414264EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsTaskbarMonitor.App", "src\WindowsTaskbarMonitor.App\WindowsTaskbarMonitor.App.csproj", "{EC2D1DB7-3B28-42B4-B786-2DD21AF99F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsTaskbarMonitor.Core.Tests", "tests\WindowsTaskbarMonitor.Core.Tests\WindowsTaskbarMonitor.Core.Tests.csproj", "{D0294A51-39F4-4ADF-947D-3DA46726AF64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{148A8910-FD1E-4D08-84EB-0A5414264EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{148A8910-FD1E-4D08-84EB-0A5414264EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{148A8910-FD1E-4D08-84EB-0A5414264EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{148A8910-FD1E-4D08-84EB-0A5414264EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC2D1DB7-3B28-42B4-B786-2DD21AF99F62}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{EC2D1DB7-3B28-42B4-B786-2DD21AF99F62}.Debug|Any CPU.Build.0 = Debug|x64
+		{EC2D1DB7-3B28-42B4-B786-2DD21AF99F62}.Release|Any CPU.ActiveCfg = Release|x64
+		{EC2D1DB7-3B28-42B4-B786-2DD21AF99F62}.Release|Any CPU.Build.0 = Release|x64
+		{D0294A51-39F4-4ADF-947D-3DA46726AF64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0294A51-39F4-4ADF-947D-3DA46726AF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0294A51-39F4-4ADF-947D-3DA46726AF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0294A51-39F4-4ADF-947D-3DA46726AF64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
